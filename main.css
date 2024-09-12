@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: navy;
+}
+
+h1,
+h2,
+label {
+    color: white;
+}
+
+.container {
+    margin: 60px auto;
+    max-width: 600px;
+    width: 100%;
+    font-family: "Nerko One", cursive;
+}
+
+.container h2 {
+    margin: 16px auto;
+    font-weight: bold;
+}
+
+form {
+    margin-top: 24px;
+}
+
+input,
+button {
+    display: block;
+    padding: 16px;
+    margin-bottom: 16px;
+    width: 100%;
+    resize: none;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+input {
+    background-color: white;
+    color: black;
+}
+
+button {
+    background-color: green ;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: springgreen
+}
+
+.success {
+    color: white;
+    background-color: lime;
+    padding: 16px auto;
+}
+
+.error {
+    color: white;
+    background-color: crimson;
+    padding: 16px auto;
+}

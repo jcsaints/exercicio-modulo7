@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fascinate+Inline&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <div class="container">
+        <header>
+            <h1>TESTE DE NUMEROS</h1>
+            <h2>DESCUBRA SE O VALOR A É MAIOR QUE VALOR B</h2>
+        </header>
+
+        <form action="" id="formNumber">
+            <label for="campoA">Campo A</label>
+            <input type="number" placeholder="Insira um numero" id="campoA" required/>
+            <label for="campoB">Campo B</label>
+            <input type="number" placeholder="Insira um numero maior  que o anterior" id="campoB" required/>
+            <button id="btnValidar" type="submit">Validar</button>
+        </form>
+
+        <p class="success"></p>
+        <p class="error"></p>
+
+    </div>
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
